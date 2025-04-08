@@ -71,7 +71,7 @@ I'm actively working on projects that bridge my engineering background with comp
 ## Education
 
 - **BS in Computer Science** - Oregon State University (Expected: December 2025)  
-- **BS in Mechanical Engineering** - Washington State University (2018)  
+- **BS in Mechanical Engineering** - Washington State University
 
 ## Looking Forward
 

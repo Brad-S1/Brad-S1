@@ -4,11 +4,11 @@
 
 I'm a Mechanical Engineer specializing in lightweight torpedo systems at Naval Undersea Warfare Center Division Keyport, currently completing my second Bachelor's degree in Computer Science at Oregon State University. With my background in Mechanical Engineering and 6+ years of experience in nuclear engineering, I bring a unique perspective to software development and problem-solving.
 
-- 🔧 Lead In-service Engineering Agent (ISEA) for lightweight torpedo systems
-- 🎓 Completing BS in Computer Science (Graduating: December 2025)
-- 🧠 Currently studying Machine Learning and Software Engineering
-- 🌟 Registered Engineer in Training (EIT) in Washington State
-- 💡 Passionate about applying technical expertise to solve complex problems
+- Lead In-Service Engineer for select lightweight torpedo systems
+- Completing BS in Computer Science (Graduating: December 2025)
+- Currently studying Machine Learning and Software Engineering
+- Registered Engineer in Training (EIT) in Washington State
+- Passionate about applying technical expertise to solve complex problems
 
 ## Skills
 
@@ -49,12 +49,12 @@ I'm a Mechanical Engineer specializing in lightweight torpedo systems at Naval U
 
 ## Professional Experience
 
-🏢 **Mechanical Engineer, Lightweight Torpedo In-Service Engineering** - Naval Undersea Warfare Center Division Keyport (2024 - Present)
-- Lead In-service Engineering Agent (ISEA) for lightweight torpedo systems
+**Mechanical Engineer, Lightweight Torpedo In-Service Engineering** - Naval Undersea Warfare Center Division Keyport (2024 - Present)
+- Lead In-Service Engineer for select lightweight torpedo systems
 - Provide technical expertise and engineering solutions for undersea weapon systems
 - Develop and implement technical specifications and maintenance procedures
 
-🏢 **Nuclear Engineer** - Department of the Navy, NAVSEA (2018 - 2024)
+**Nuclear Engineer** - Department of the Navy, NAVSEA (2018 - 2024)
 - Led technical problem-solving for naval nuclear systems
 - Developed and reviewed critical technical documentation
 - Managed complex engineering projects and cross-functional teams

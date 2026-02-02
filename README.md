@@ -2,89 +2,106 @@
 
 ## About Me
 
-I'm a Mechanical Engineer specializing in lightweight torpedo systems at Naval Undersea Warfare Center Division Keyport, currently completing my second Bachelor's degree in Computer Science at Oregon State University. With my background in Mechanical Engineering and 6+ years of experience in nuclear engineering, I bring a unique perspective to software development and problem-solving.
+I'm a Mechanical Engineer with 7.5+ years of defense experience, recently completed my BS in Computer Science (4.0 GPA). I combine systems thinking from naval engineering with software development skills, with particular interest in low-level programming, embedded systems, and hardware-software interfaces.
 
-- Lead In-Service Engineer for select lightweight torpedo systems
-- Completing BS in Computer Science (Graduating: December 2025)
-- Currently studying Machine Learning and Software Engineering
-- Registered Engineer in Training (EIT) in Washington State
-- Passionate about applying technical expertise to solve complex problems
+**Background:**
+- BS Computer Science - Oregon State University (December 2025) | 4.0 GPA  
+- BS Mechanical Engineering - Washington State University (2018) | 3.93 GPA
+- 7.5 years defense engineering experience (Naval nuclear systems → undersea weapons)
+- Active Secret clearance
+- Washington State
 
-## Skills
+## Technical Skills
 
-### Technical Skills
+### Languages
+- **Systems Programming:** C, Assembly (MASM x86)
+- **Scripting & General:** Python, JavaScript
+- **Engineering:** MATLAB
 
-- **Software & Programming:**
-  - Python (primary language)
-  - Coursework experience: C, JavaScript (React, Node.js), Assembly (MASM x86)
-  - Data analysis using MATLAB
-  
-### Engineering Expertise
-- **Mechanical Systems:**
-  - Lightweight torpedo systems engineering
-  - Naval propulsion and fluid systems
-  - P&ID interpretation and system analysis
-  - Mechanical component design and troubleshooting
-  
-- **Project Leadership:**
-  - Technical documentation and procedure development
-  - Cross-functional team leadership and coordination
-  - Risk assessment and mitigation strategies
-  - Engineering oversight for maintenance operations
+### Systems & Tools
+- **Development:** Linux/Unix, Git, Make, VS Code, PyCharm
+- **Embedded/Low-level:** SDL2, systems programming, hardware/software integration
+- **Testing:** unittest (Python)
 
-### Professional Focus Areas
-- Algorithms & Data Structures
-- Machine Learning Applications
-- Software Engineering
-- System Integration
-- Technical Problem-Solving
+### Engineering & Domain Expertise
+- Systems analysis and troubleshooting
+- Technical documentation and procedures
+- Cross-functional project leadership
+- Defense systems (torpedoes, naval propulsion, fluid systems)
 
-## Engineering
+### Web Development
+- **Frontend:** React, HTML/CSS
+- **Backend:** Node.js, Express
+- **Databases:** MongoDB, MySQL
 
-- **Naval Systems & Torpedoes:** Lightweight torpedo systems, naval propulsion, fluid systems
-- **Technical Documentation:** P&ID interpretation, repair procedures, maintenance specifications
-- **Mechanical Analysis:** System troubleshooting, failure analysis, component inspection
-- **Project Management:** Cross-functional team leadership, risk assessment, technical oversight
-- **Safety & Compliance:** Regulatory standards, quality control, engineering specifications
+### Data Science & Machine Learning
+- **Frameworks:** TensorFlow/Keras, scikit-learn
+- **Libraries:** pandas, NumPy
+- **Domains:** Deep learning (CNNs, RNNs, LSTMs), classification, time-series prediction
+
+## Featured Projects
+
+### Intel 8080 CPU Emulator
+Cycle-accurate Intel 8080 CPU emulator in C capable of executing original Space Invaders ROM.
+- Led technical development: implemented 63 opcodes, reviewed all 192 implementations
+- Designed cross-platform build system (Make/sdl2-config) for macOS and WSL2
+- Refactored modular architecture separating CPU core, graphics, and I/O subsystems
+- Tech: C, SDL2, low-level systems programming, conditional compilation
+- 🔗 [View Repository](https://github.com/Brad-S1/intel-8080-cpu-emulator)
+
+### Unix Shell Implementation (smallsh)
+POSIX-compliant Unix shell in C demonstrating low-level process control and signal handling.
+- Implemented async-signal-safe signal handlers using only signal-safe functions (`write()`, `_exit()`)
+- Designed process group management with graceful `SIGTERM`/`SIGKILL` cascade for complete child cleanup
+- Built non-blocking background process monitoring using `waitpid()` with `WNOHANG` flag
+- Engineered modular architecture with systematic memory management (zero leaks)
+- Tech: C, Unix system calls (fork, exec, dup2, sigaction), POSIX signal handling, ~700 LOC
+- 🔗 [View Repository](https://github.com/Brad-S1/smallsh-unix-shell)
+
+### String Primitives & Low-Level I/O
+MASM x86 assembly program demonstrating numeric I/O without standard library functions.
+- Custom ASCII-to-integer conversion using `LODSB` with CPU flag-based overflow detection
+- Integer-to-ASCII conversion using `STOSB` with INT32_MIN edge case handling
+- STDCall calling convention with stack-based parameter passing
+- Comprehensive byte-level input validation and error recovery
+- Tech: MASM x86 Assembly, string primitives, systems programming
+- 🔗 [View Repository](https://github.com/Brad-S1/assembly-string-primitives)
+
+### Solar Flare Prediction: Comparative Neural Network Study (CS435 Portfolio Project)
+Systematic comparison of neural network architectures for predicting major solar flares 
+using multivariate time series data (60 timesteps × 24 magnetic field parameters).
+- Implemented ANN and LSTM classifiers in TensorFlow/Keras with TSS-optimized 
+  thresholds; ANN achieved 0.60 TSS vs LSTM 0.55 across 4 temporal partitions
+- Designed temporal cross-validation framework to prevent data leakage across Solar 
+  Cycle 24 phases; discovered LSTM maintained 14× better performance during challenging 
+  cycle transitions (TSS 0.19 vs 0.01)
+- Debugged LSTM training failures through systematic architecture simplification; 
+  identified random seed sensitivity requiring careful initialization strategies
+- Tech: Python, TensorFlow/Keras, scikit-learn, pandas, NumPy, imbalanced classification
+- 🔗 [View Repository](https://github.com/Brad-S1/solar-flare-prediction)
 
 ## Professional Experience
 
-**Mechanical Engineer, Lightweight Torpedo In-Service Engineering** - Naval Undersea Warfare Center Division Keyport (2024 - Present)
-- Lead In-Service Engineer for select lightweight torpedo systems
-- Provide technical expertise and engineering solutions for undersea weapon systems
-- Develop and implement technical specifications and maintenance procedures
+**Mechanical Engineer, Lightweight Torpedo Systems**  
+*Naval Undersea Warfare Center Division Keyport | September 2024 - Present*
+- Lead In-Service Engineer for lightweight torpedo weapon systems projects
+- Conduct technical risk analysis and system engineering reviews
+- Develop lifecycle sustainment plans and reliability studies
 
-**Nuclear Engineer** - Department of the Navy, NAVSEA (2018 - 2024)
-- Led technical problem-solving for naval nuclear systems
-- Developed and reviewed critical technical documentation
-- Managed complex engineering projects and cross-functional teams
-- Provided engineering oversight for high-risk maintenance operations
+**Nuclear Engineer**  
+*Puget Sound Naval Shipyard & IMF | June 2018 - September 2024*
+- Led technical problem-solving for complex electro-mechanical systems
+- Developed 200+ technical procedures requiring precise specification compliance
+- Managed cross-functional engineering teams on high-stakes projects
+- Mentored 20+ junior engineers in systems thinking and diagnostic methodologies
 
-## Current Projects
+[See [LinkedIn](https://www.linkedin.com/in/sommer-brad/) for complete experience]
 
-I'm actively working on projects that bridge my engineering background with computer science:
+## 📫 Connect With Me
 
-- Applied machine learning implementations
-- Software engineering projects focusing on system optimization
-- Technical documentation automation tools
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Brad%20Sommer-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sommer-brad/)
+[![GitHub](https://img.shields.io/badge/GitHub-Brad--S1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Brad-S1)
 
-## Education
-
-- **BS in Computer Science** - Oregon State University (Expected: December 2025)  
-- **BS in Mechanical Engineering** - Washington State University
-
-## Looking Forward
-
-As I complete my Computer Science degree, I'm particularly interested in:
-- Integrating software solutions with defense applications
-- Applying machine learning to mechanical engineering challenges
-- Developing tools for enhanced system monitoring and analysis
-- Building applications that bridge the gap between hardware and software
-
-## Connect With Me
-
-- GitHub: [Brad-S1](https://github.com/Brad-S1/)
-- LinkedIn: [Brad Sommer](https://www.linkedin.com/in/sommer-brad/)
 ---
 
-*"The combination of mechanical understanding and computational thinking creates a powerful toolkit for solving tomorrow's challenges."*
+*Active Secret Clearance | Washington State*
